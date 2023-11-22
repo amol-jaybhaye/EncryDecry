@@ -2,6 +2,21 @@
 
 This project implements a simple encryption and decryption tool using the DES algorithm. It allows users to encrypt and decrypt text data using a secret key.
 
+## Core Concepts of the DES Algorithm
+The Data Encryption Standard (DES) is a symmetric-key block cipher that was adopted as a Federal Information Processing Standard (FIPS) in 1976. It is a widely used algorithm for encrypting and decrypting data, but it has been superseded by more secure algorithms such as AES.
+
+##Key Concepts of DES:
+
+<li>Symmetric-key algorithm: DES uses the same key for both encryption and decryption. This means that the sender and receiver of the data must share the same secret key.</li>
+
+<li>Block cipher: DES operates on blocks of data of a fixed size (64 bits in this case). This means that a large message must be broken down into smaller blocks before it can be encrypted or decrypted.</li>
+
+<li>Feistel cipher: DES is a Feistel cipher, which means that it consists of multiple rounds of the same basic operation. Each round consists of a substitution function and a permutation function.</li>
+
+<li>Substitution function: The substitution function replaces each 4-bit input with a different 4-bit output. This is done by using a lookup table called an S-box.</li>
+
+<li>Permutation function: The permutation function rearranges the order of the bits in the input. This is done by using a fixed permutation table.</li>
+
 ### Usage
 
 To encrypt text data, run the program and enter the text you want to encrypt. The program will encrypt the text and print the encrypted text to the console.
@@ -49,3 +64,7 @@ javac *.java
 ```bash
 java coolApps.EncryDecry
 ```
+
+### License
+
+This project is licensed under the MIT License.
