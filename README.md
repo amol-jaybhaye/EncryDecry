@@ -1,5 +1,3 @@
-Sure, here is the content for a README.md file based on the provided code:
-
 ## EncryDecry
 
 This project implements a simple encryption and decryption tool using the DES algorithm. It allows users to encrypt and decrypt text data using a secret key.
