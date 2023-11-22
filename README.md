@@ -5,7 +5,7 @@ This project implements a simple encryption and decryption tool using the DES al
 ## Core Concepts of the DES Algorithm
 The Data Encryption Standard (DES) is a symmetric-key block cipher that was adopted as a Federal Information Processing Standard (FIPS) in 1976. It is a widely used algorithm for encrypting and decrypting data, but it has been superseded by more secure algorithms such as AES.
 
-##Key Concepts of DES:
+## Key Concepts of DES:
 
 <li>Symmetric-key algorithm: DES uses the same key for both encryption and decryption. This means that the sender and receiver of the data must share the same secret key.</li>
 
